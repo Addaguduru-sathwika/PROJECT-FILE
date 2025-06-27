@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+ <html>  
+ <head>  
+      <meta charset="utf-8">  
+      <title>Insert data in database using PHP MySQLi</title>  
+      <style type="text/css">  
+           *{  
+                padding: 0;  
+                margin: 0;  
+                box-sizing: border-box;  
+           }  
+           body{  
+                background: pink;  
+                width: 100%;  
+                min-height: 100vh;  
+                display: flex;  
+                justify-content: center;  
+                align-items: center;  
+           }  
+           .container{  
+                width: 500px;  
+                background: grey;  
+           }  
+           .container form{  
+                width: 100%;  
+                padding: 30px;  
+           }  
+           .container form input{  
+                width: 100%;  
+                padding: 15px 10px;  
+                outline: none;  
+                margin: 10px 0;  
+           }  
+           .btn{  
+                cursor: pointer;  
+                background:green;  
+                border: none;  
+                padding: 10px 30px;  
+                color: #fff;  
+           }  
+           h1{  
+                display: block;  
+                text-align: center;  
+                padding-top: 20px;  
+           }  
+      </style>  
+ </head>
+<?php require 'head.php';?>
+<br>
+<br><br><br><br><br><br> 
+ <body>  
+ <div class="container">  
+      <h1>DELETE A EVENT</h1>  
+      <form method="POST" action="delete.php">  
+           <input type="text" name="t1" placeholder="Enter eventid" required>  
+					   <input type="submit" name="insert" value="delete" class="btn"><br>  
+					   </form>
+					   <form align="center" action="events.php">
+<button class="btn">back</button>
+</form>
+           <?php echo $msg; ?> 
+<?php
+$data=mysqli_query($conn,$query);  
+      if ($data) {  
+           $msg="Your data inserted successfully";  
+      }else{  
+           $msg="Try after some time !";  
+      }  
+ }  
+ echo $msg; 
+?>		   
+      </form>	  
+ </div>  
+ </body>  
+ </html>

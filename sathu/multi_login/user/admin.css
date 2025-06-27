@@ -1,0 +1,45 @@
+<style type="text/css">  
+           *{  
+                padding: 0;  
+                margin: 0;  
+                box-sizing: border-box;  
+           }  
+           body{ 
+margin-left:50;		   
+                width: 100%;  
+                min-height: 100vh;  
+               background-image: url('login2.jpg'); 
+				background-size:cover; 
+           } 
+ form{ 
+margin-left:50;	
+ }	   
+           .container{  
+                max-width: 900px;  
+                margin: 100px auto;  
+                width: 100%;  
+           }  
+           table{  
+                border-collapse: collapse;  
+                width: 70%; 
+                align:center;
+margin-left:180px;	
+margin-top:60px;				
+           }  
+           table th{  
+                background-color: black;  
+                color: #fff;  
+                padding: 10px;  
+           }  
+           table td{  
+                padding: 12px;  
+                color: #fff;  
+                font-size: 1em;  
+                text-align: center;  
+				font-color:black;
+           }  
+           table tr{
+			   background-color:#133d4a;
+		   }
+		 
+</style>

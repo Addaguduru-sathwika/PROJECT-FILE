@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>
+home page
+</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  width: 33.33%;
+  height:33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row{
+display:flex;
+column-gap:10px;
+}
+</style><script>
+function myFunction(prodName) {
+
+  alert(prodName + " added sucessfully");
+}
+</script>
+</head>
+<body>
+<h1><center>HOME PAGE</center></h1>
+<img src="images.png"width="40" height="30"alt="this is image"> </img>
+<p><a href="welcome.html"> login</a></p>
+<div class="row">
+  <div class="column">
+    <img src="admin1.jpg" alt="Snow" style="width:100%">
+	<p>product name</p>
+	<p>chair 1</p>
+    <button onclick="myFunction('chair 1')">ADD TO CART</button>
+  </div>
+  <div class="column">
+    <img src="images.png" alt="Forest" style="width:100%">
+	<p>product name</p>
+	<p>chair 2</p>
+    <button onclick="myFunction('chair 2')">ADD TO CART</button>
+  </div>
+  <div class="column">
+    <img src="login1.jpg" alt="Mountains" style="width:100%">
+	<p>product name</p>
+	<p>chair 3</p>
+    <button onclick="myFunction('chair 3')">ADD TO CART</button>
+	
+	
+	
+	
+
+</body>
+</html>

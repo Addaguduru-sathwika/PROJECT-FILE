@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+    header .logo img {
+        float: left;
+        width: 100px;
+        height: 90px;
+    }
+
+
+    header ul {
+        flex: 2;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        header ul li {
+            list-style: none;
+        }
+
+            header ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 10px 15px;
+            }
+
+                header ul li a:hover {
+                    border-bottom: 2px solid cadetblue;
+                }
+
+    header .menu {
+        font-size: 2.5em;
+        display: none;
+    }
+
+@media(max-width:1000px) {
+    .search-box button {
+        position: absolute;* {
+    }* {
+    margin: 0;* {
+
+    margin: 0;
+    padding: 0;* {
+    margin: 0;
+    padding: 0;
+    header ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        position: fixed;
+    font-family: Arial;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+        top: 100px;
+}
+    box-sizing: border-box;
+    font-family: Arial;
+}
+        right: -100%;
+    font-family: Arial;
+header {
+}
+header {
+        background: rgba(0,0,0,0.5);
+}
+    width: 100%;
+header {
+    width: 100%;
+        height: calc(100vh - 100px);
+header {
+    height: 100px;
+    width: 100%;
+    height: 100px;
+        width: 50%;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    display: flex;
+        flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+        transition: right 0.5s linear;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    position: fixed;
+    }
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    z-index: 99;
+
+    position: fixed;
+    box-shadow: 0 0 10px #000;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    header .menu {
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0.5);
+        display: block;
+    box-shadow: 0 0 10px #000;
+}
+    background: rgba(0,0,0,0.5);
+}
+        width: 100px;
+    background: rgba(0,0,0,0.5);
+
+}
+
+        text-align: center;
+}
+
+
+
+    }
+
+
+
+
+}
+
+    header .logo img {
+
+    header .logo img {
+
+
+        float: left;
+    header .logo img {
+        float: left;
+    header .logo img {
+        width: 100px;
+        float: left;
+        width: 100px;
+        float: left;
+        height: 90px;
+        width: 100px;
+        height: 90px;
+        width: 100px;
+    }
+        height: 90px;
+    }
+        height: 90px;
+
+    }
+
+    }
+
+
+
+
+    header ul {
+
+    header ul {
+
+        flex: 2;
+    header ul {
+        flex: 2;
+    header ul {
+        display: flex;
+        flex: 2;
+        display: flex;
+        flex: 2;
+        justify-content: space-evenly;
+        display: flex;
+        justify-content: space-evenly;
+        display: flex;
+    }
+        justify-content: space-evenly;
+    }
+        justify-content: space-evenly;
+
+    }
+
+    }
+        header ul li {
+
+        header ul li {
+
+            list-style: none;
+        header ul li {
+            list-style: none;
+        header ul li {
+        }
+            list-style: none;
+        }
+            list-style: none;
+
+        }
+
+        }
+            header ul li a {
+
+            header ul li a {
+
+                text-decoration: none;
+            header ul li a {
+                text-decoration: none;
+            header ul li a {
+                color: #fff;
+                text-decoration: none;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 600;
+                color: #fff;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 10px 15px;
+                text-transform: uppercase;
+                padding: 10px 15px;
+                text-transform: uppercase;
+            }
+                padding: 10px 15px;
+            }
+                padding: 10px 15px;
+
+            }
+
+            }
+                header ul li a:hover {
+
+                header ul li a:hover {
+
+                    border-bottom: 2px solid cadetblue;
+                header ul li a:hover {
+                    border-bottom: 2px solid cadetblue;
+                header ul li a:hover {
+                }
+                    border-bottom: 2px solid cadetblue;
+                }
+                    border-bottom: 2px solid cadetblue;
+
+                }
+
+                }
+    header .menu {
+
+    header .menu {
+
+        font-size: 2.5em;
+    header .menu {
+        font-size: 2.5em;
+    header .menu {
+        display: none;
+        font-size: 2.5em;
+        display: none;
+        font-size: 2.5em;
+    }
+        display: none;
+    }
+        display: none;
+
+    }
+
+    }
+@media(max-width:1000px) {
+
+@media(max-width:1000px) {
+
+    .search-box button {
+@media(max-width:1000px) {
+    .search-box button {
+@media(max-width:1000px) {
+        position: absolute;
+    .search-box button {
+        position: absolute;
+    .search-box button {
+    }
+        position: absolute;
+    }
+        position: absolute;
+
+    }
+
+    }
+    header ul {
+
+    header ul {
+
+        position: fixed;
+    header ul {
+        position: fixed;
+    header ul {
+        top: 100px;
+        position: fixed;
+        top: 100px;
+        position: fixed;
+        right: -100%;
+        top: 100px;
+        right: -100%;
+        top: 100px;
+        background: rgba(0,0,0,0.5);
+        right: -100%;
+        background: rgba(0,0,0,0.5);
+        right: -100%;
+        height: calc(100vh - 100px);
+        background: rgba(0,0,0,0.5);
+        height: calc(100vh - 100px);
+        background: rgba(0,0,0,0.5);
+        width: 50%;
+        height: calc(100vh - 100px);
+        width: 50%;
+        height: calc(100vh - 100px);
+        flex-direction: column;
+        width: 50%;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        transition: right 0.5s linear;
+        align-items: center;
+        transition: right 0.5s linear;
+        align-items: center;
+    }
+        transition: right 0.5s linear;
+    }
+        transition: right 0.5s linear;
+
+    }
+
+    }
+    header .menu {
+
+    header .menu {
+
+        display: block;
+    header .menu {
+        display: block;
+    header .menu {
+        width: 100px;
+        display: block;
+        width: 100px;
+        display: block;
+        text-align: center;
+        width: 100px;
+        text-align: center;
+        width: 100px;
+    }
+        text-align: center;
+    }
+        text-align: center;
+}
+    }
+}
+    }
+
+}
+
+}
